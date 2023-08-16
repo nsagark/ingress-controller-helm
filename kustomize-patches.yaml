@@ -1,0 +1,10 @@
+clusterPatches:
+- target:
+     kind: Cluster
+     labelSelector:
+     name: calico-test-new
+  kustomizePatch: ./base/
+- target:
+     kind: Cluster
+     name: newv1225-aks
+  kustomizePatch: ./newv1225-aks/
