@@ -1,8 +1,7 @@
 clusterPatches:
 - target:
      kind: Cluster
-     labelSelector:
-     name: calico-test-new
+     name: 1277
   kustomizePatch: ./base/
 - target:
      kind: Cluster
